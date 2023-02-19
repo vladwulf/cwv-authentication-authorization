@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-fuchsia-600 p-10">
+    <h1 class="font-semibold font-serif text-white text-6xl text-center">
+      Hot kitties
+    </h1>
+
+    <div class="mt-20 grid justify-items-center grid-cols-4 gap-4 w-full">
+      <div class="h-[400px] p-4 rounded-xl">
+        <img
+          class="rounded-xl h-full"
+          src="https://i.pinimg.com/564x/41/3a/f8/413af8b2dc2efc26936c7907789fb0af.jpg"
+        />
+      </div>
+      <div class="h-[400px] p-4 rounded-xl">
+        <img
+          class="rounded-xl h-full"
+          src="https://i.pinimg.com/564x/f0/13/a9/f013a96f05c108e8a4a2ab24e3484e2e.jpg"
+        />
+      </div>
+      <div class="h-[400px] p-4 rounded-xl">
+        <img
+          class="rounded-xl h-full"
+          src="https://i.pinimg.com/564x/59/df/0b/59df0b838342d4920a988dbb5856d110.jpg"
+        />
+      </div>
+      <div class="h-[400px] p-4 rounded-xl">
+        <img
+          class="rounded-xl h-full"
+          src="https://i.pinimg.com/564x/d1/08/61/d108610411702f02e82885f66cd63580.jpg"
+        />
+      </div>
+    </div>
+  </body>
+</html>
